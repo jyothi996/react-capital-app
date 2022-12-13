@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #93c5fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.capital-container {
+  background-color: #f8fafc;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  padding-left: 20px;
+}
+@media screen and (min-width: 768px) {
+  .capital-container {
+    width: 500px;
+  }
+}
+.heading {
+  color: #323f4b;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.country-container {
+  display: flex;
+  align-items: center;
+}
+.select {
+  height: 30px;
+  width: 120px;
+  border: 1px solid #cbd2d9;
+  font-family: 'Robot';
+  color: #000000;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+.option {
+  font-size: 12px;
+  font-family: 'Robot';
+  color: #000000;
+}
+.para {
+  color: #1e293b;
+  font-size: 18px;
+}
+.country {
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
